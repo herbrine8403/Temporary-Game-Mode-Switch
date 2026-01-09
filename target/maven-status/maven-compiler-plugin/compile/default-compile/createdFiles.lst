@@ -1,0 +1,8 @@
+com/tempgmswitch/listeners/PlayerQuitListener.class
+com/tempgmswitch/commands/TempGmTabCompleter.class
+com/tempgmswitch/commands/TempGmCommand.class
+com/tempgmswitch/managers/GameModeManager.class
+com/tempgmswitch/TemporaryGameModeSwitch.class
+com/tempgmswitch/commands/OpTempGmCommand.class
+com/tempgmswitch/commands/OpTempGmTabCompleter.class
+com/tempgmswitch/config/ConfigManager.class

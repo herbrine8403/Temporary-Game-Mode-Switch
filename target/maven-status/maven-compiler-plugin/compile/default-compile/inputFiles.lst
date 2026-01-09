@@ -1,0 +1,8 @@
+/home/drwei/TemporaryGameModeSwitch/src/main/java/com/tempgmswitch/TemporaryGameModeSwitch.java
+/home/drwei/TemporaryGameModeSwitch/src/main/java/com/tempgmswitch/listeners/PlayerQuitListener.java
+/home/drwei/TemporaryGameModeSwitch/src/main/java/com/tempgmswitch/commands/TempGmCommand.java
+/home/drwei/TemporaryGameModeSwitch/src/main/java/com/tempgmswitch/managers/GameModeManager.java
+/home/drwei/TemporaryGameModeSwitch/src/main/java/com/tempgmswitch/commands/OpTempGmCommand.java
+/home/drwei/TemporaryGameModeSwitch/src/main/java/com/tempgmswitch/commands/TempGmTabCompleter.java
+/home/drwei/TemporaryGameModeSwitch/src/main/java/com/tempgmswitch/config/ConfigManager.java
+/home/drwei/TemporaryGameModeSwitch/src/main/java/com/tempgmswitch/commands/OpTempGmTabCompleter.java

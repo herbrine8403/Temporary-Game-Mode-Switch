@@ -1,0 +1,45 @@
+# Language: en (English) or zh (Chinese)
+language: zh
+
+# Default duration for temporary game mode (in seconds)
+default-duration: 300
+
+# Enabled game modes for /tempgm command
+enabled-gamemodes:
+  - survival
+  - creative
+  - adventure
+  - spectator
+
+# Messages
+messages:
+  en:
+    prefix: "&a[TemporaryGM] &r"
+    gamemode-switched: "&eYour game mode has been temporarily changed to &6{gamemode}&e."
+    gamemode-expired: "&eYour temporary game mode has expired. Switching back to &6survival&e."
+    invalid-gamemode: "&cInvalid game mode. Available modes: {modes}"
+    gamemode-disabled: "&cThe game mode &6{gamemode}&c is disabled."
+    duration-set: "&eDefault duration set to &6{duration}&e seconds."
+    gamemode-enabled: "&eGame mode &6{gamemode}&e has been &aenabled&e."
+    gamemode-disabled-msg: "&eGame mode &6{gamemode}&e has been &cdisabled&e."
+    no-permission: "&cYou don't have permission to use this command."
+    invalid-command: "&cInvalid command. Usage: {usage}"
+    player-only: "&cThis command can only be used by players."
+    invalid-duration: "&cInvalid duration. Please provide a positive number."
+    duration-too-short: "&cDuration must be at least 1 second."
+    duration-too-long: "&cDuration cannot exceed 24 hours (86400 seconds)."
+  zh:
+    prefix: "&a[临时游戏模式] &r"
+    gamemode-switched: "&e你的游戏模式已临时更改为 &6{gamemode}&e。"
+    gamemode-expired: "&e你的临时游戏模式已过期。正在切换回 &6survival&e 模式。"
+    invalid-gamemode: "&c无效的游戏模式。可用模式: {modes}"
+    gamemode-disabled: "&c游戏模式 &6{gamemode}&c 已被禁用。"
+    duration-set: "&e默认时长已设置为 &6{duration}&e 秒。"
+    gamemode-enabled: "&e游戏模式 &6{gamemode}&e 已被 &a启用&e。"
+    gamemode-disabled-msg: "&e游戏模式 &6{gamemode}&e 已被 &c禁用&e。"
+    no-permission: "&c你没有权限使用此命令。"
+    invalid-command: "&c无效的命令。用法: {usage}"
+    player-only: "&c此命令只能由玩家使用。"
+    invalid-duration: "&c无效的时长。请提供一个正数。"
+    duration-too-short: "&c时长必须至少为 1 秒。"
+    duration-too-long: "&c时长不能超过 24 小时（86400 秒）。"

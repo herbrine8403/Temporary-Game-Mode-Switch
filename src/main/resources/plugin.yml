@@ -1,0 +1,24 @@
+name: TemporaryGameModeSwitch
+version: 1.0.0
+main: com.tempgmswitch.TemporaryGameModeSwitch
+api-version: 1.21
+author: YourName
+description: A plugin for temporarily switching game modes
+
+commands:
+  tempgm:
+    description: Temporarily switch your game mode
+    usage: /tempgm <survival|creative|adventure|spectator|0|1> [duration]
+    permission: tempgm.use
+  optempgm:
+    description: Configure the TemporaryGameModeSwitch plugin
+    usage: /optempgm <time|gamemode> <args>
+    permission: tempgm.admin
+
+permissions:
+  tempgm.use:
+    description: Allows using /tempgm command
+    default: true
+  tempgm.admin:
+    description: Allows using /optempgm command
+    default: op
